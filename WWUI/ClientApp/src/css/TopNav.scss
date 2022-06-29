@@ -1,0 +1,47 @@
+.TopNav{
+    top: 0;
+    z-index: 1;
+    position: sticky;
+    display: flex;
+    height: 50px;
+    min-width: 1300px;
+    align-items: center;
+    box-shadow: 0 0 1px #555;
+    background-color: #fcfcfc;
+    justify-content: flex-end;
+    .Tab{
+        margin: 5px;
+        font-weight: bold;
+        margin: 50px;
+        font-size: 16px;
+        user-select: none;
+        a{
+            color: #000;
+        }
+        cursor: pointer;
+        a:hover{
+            color: #777;
+        }
+    }
+    .UserData{
+        cursor: pointer;
+        width: 150px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        img{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+        div{
+            margin-left: 10px;
+            font-size: 16px;
+        }
+    } 
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,82 @@
+.BookItem{
+    height: max-content;
+    .Item{
+        cursor: pointer;
+        width: 400px;
+        height: 180px;
+        display: flex;
+        transition: all .2s;
+        padding: 12.5px 10px;
+        margin: 10px;
+        border-radius: 10px;
+        border: 1px solid #eee;
+        &:hover{
+            transform: scale(1.025);
+            box-shadow: 0 0 5px #eee;
+        }
+    }
+    img{
+        width: 105px;
+        height: 150px;
+    }
+    .DataList{
+        padding: 5px;
+        .intro,.type,.update{
+            font-size: 12.5px;
+        }
+        .title{
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .tags{
+            display: flex;
+            flex-wrap: wrap;
+            span{
+                margin-top: 2.5px;
+                margin-left: 2.5px;
+            }
+        }
+    }
+}
+.BookModal {
+    display: flex;
+    img {
+        width: 160px;
+        height: 230px;
+    }
+    .DataList {
+        padding: 10px;
+        padding-top: 5px;
+        .intro,
+        .type,
+        .update {
+            strong{
+                display: inline-block;
+                width: max-content;
+            }
+            font-size: 12px;
+        }
+        .id{
+            font-size: 13px;
+            font-weight: bold;
+        }
+        .title {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .intro {
+            width: 270px;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+
+            span {
+                margin-top: 2.5px;
+                margin-left: 2.5px;
+            }
+        }
+    }
+}

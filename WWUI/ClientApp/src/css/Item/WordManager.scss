@@ -1,0 +1,12 @@
+.WordList{
+    display: flex;
+    flex-wrap: wrap;
+    .Words {
+        user-select: none;
+        cursor: pointer;
+        padding: 5px 10px;
+        margin: 2.5px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+}

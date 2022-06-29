@@ -1,0 +1,39 @@
+.Book{
+    width: 150px;
+    height: 235px;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.2s;
+    &:hover{
+        transform: scale(1.025);
+        box-shadow: 0 0 5px #eee;
+    }
+    &ImgBox{
+        width: 100%;
+        height: 80%;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &Data{
+        width: 100%;
+        padding: 10px;
+        padding-top: 0;
+        &Title{
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            font-weight: bold;
+        }
+        &Type{
+            font-size: 12px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

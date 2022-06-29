@@ -1,0 +1,13 @@
+.Pers {
+    padding: 15px;
+    flex-direction: column;
+
+    .checkLine {
+        margin: 10px 0;
+        display: flex;
+
+        .c {
+            width: 300px;
+        }
+    }
+}

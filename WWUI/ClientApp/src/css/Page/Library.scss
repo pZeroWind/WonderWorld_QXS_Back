@@ -1,0 +1,41 @@
+.LibraryBox{
+    flex-flow: column;
+    padding: 10px;
+    
+    .BookList{
+        width: 100%;
+        display: flex;
+        flex: 1;
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+    .SelectBox{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .SearchBox{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .Input {
+            width: 700px;
+            margin-left: 300px;
+        }
+    }
+    .pageControl{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.ControlItem{
+    text-align: center;
+}
+
+.More{
+    margin-right: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}

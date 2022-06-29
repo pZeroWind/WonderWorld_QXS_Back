@@ -1,0 +1,39 @@
+.DataBox{
+    background-color: #fff;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 270px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 2.5px #eee;
+    user-select: none;
+    .Name{
+        width: 90%;
+        font-size: 16px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        height: 30px;
+        font-weight: bold;
+        color: #555;
+        border-bottom: 1px solid #eee;
+    }
+    .Data{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        font-weight: normal;
+        color: #aaa;
+    }
+}
+
+.DataBox:hover{
+    transform: scale(1.035);
+    box-shadow: 0 0 5px #ddd;
+}

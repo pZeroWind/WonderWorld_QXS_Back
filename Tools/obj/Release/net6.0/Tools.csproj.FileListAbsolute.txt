@@ -1,0 +1,15 @@
+C:\Users\Master\source\repos\WWProject\Tools\bin\Release\net6.0\Tools.deps.json
+C:\Users\Master\source\repos\WWProject\Tools\bin\Release\net6.0\Tools.dll
+C:\Users\Master\source\repos\WWProject\Tools\bin\Release\net6.0\Tools.pdb
+C:\Users\Master\source\repos\WWProject\Tools\obj\Release\net6.0\Tools.csproj.AssemblyReference.cache
+C:\Users\Master\source\repos\WWProject\Tools\obj\Release\net6.0\Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Master\source\repos\WWProject\Tools\obj\Release\net6.0\Tools.AssemblyInfoInputs.cache
+C:\Users\Master\source\repos\WWProject\Tools\obj\Release\net6.0\Tools.AssemblyInfo.cs
+C:\Users\Master\source\repos\WWProject\Tools\obj\Release\net6.0\Tools.csproj.CoreCompileInputs.cache
+C:\Users\Master\source\repos\WWProject\Tools\obj\Release\net6.0\Tools.dll
+C:\Users\Master\source\repos\WWProject\Tools\obj\Release\net6.0\refint\Tools.dll
+C:\Users\Master\source\repos\WWProject\Tools\obj\Release\net6.0\Tools.pdb
+C:\Users\Master\source\repos\WWProject\Tools\obj\Release\net6.0\ref\Tools.dll
+C:\Users\Master\source\repos\WWProject\Tools\bin\Release\net6.0\WWModel.dll
+C:\Users\Master\source\repos\WWProject\Tools\bin\Release\net6.0\WWModel.pdb
+C:\Users\Master\source\repos\WWProject\Tools\obj\Release\net6.0\Tools.csproj.CopyComplete

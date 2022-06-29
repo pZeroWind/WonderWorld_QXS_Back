@@ -1,0 +1,32 @@
+.Input {
+    display: flex;
+    background-color: #eee;
+    width: 80%;
+    height: 35px;
+    overflow: hidden;
+    margin: 2px;
+    border-radius: 5px;
+
+    input {
+        background-color: transparent;
+        flex: 1;
+        height: 100%;
+        padding: 0 10px;
+        border: none;
+        outline: none;
+    }
+
+    button {
+        cursor: pointer;
+        width: 70px;
+        border: none;
+        outline: none;
+        font-size: 14px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #c00;
+        &:hover {
+            background-color: #d00;
+        }
+    }
+}

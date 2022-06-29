@@ -1,0 +1,17 @@
+.Users {
+    flex-direction: column;
+    padding: 15px;
+
+    .con {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .pageControl {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
